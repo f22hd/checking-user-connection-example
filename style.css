@@ -1,0 +1,39 @@
+html,body{
+  width: 100%;
+  height: 100%;
+   padding: 0;
+   margin: 0;
+  font-size: 19px;
+}
+
+ #offline {
+  position: fixed;
+  display : none;
+  color: #a94442;
+  background-color: #f2dede;
+  border-color: #ebccd1;
+  border-radius: 4px;
+  margin: 0;
+  top: 0;
+  transition: .7s ease-in-out;
+  width: 100%;
+  text-align: center;
+}
+   
+
+blockquote{
+  color: #009088; 
+  font-size: 33px;
+  font-weight: bold;
+  border-left: 6px solid #ddd;
+  padding: 10px;
+  font-style: italic;
+}
+.container{
+  display: flex;
+  justify-content: center;
+  background-color : #efefef;
+  padding: 30px;
+  height: 100vh;
+  align-items: center;
+}
